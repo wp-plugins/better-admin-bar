@@ -19,6 +19,7 @@ Admin bar moves your website 32px down by default, but now it doesn't. This plug
 	<li>hide admin bar for all users except administrators</li>
 	<li>set opacity of admin bar</li>
 	<li>set opacity of admin bar on hover</li>
+	<li>set auto-hide and show on hover</li>
 </ul>
 
 == Installation ==
