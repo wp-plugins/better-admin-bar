@@ -29,9 +29,10 @@ Admin bar moves your website 32px down by default, but now it doesn't. This plug
 
 == Screenshots ==
 
-1. Inactive admin bar with 30% opacity
-2. Active admin bar (on hover) with 100% opacity
-3. Plugin settings
+1. Inactive admin bar eith auto-hide
+2. Inactive admin bar with 30% opacity
+3. Active admin bar (on hover) with 100% opacity
+4. Plugin settings
 
 == Changelog ==
 
