@@ -14,7 +14,7 @@ if (!class_exists('better_admin_bar')) {
 		var $plugin_admin_page;
 		var $settings;
 		
-		function better_admin_bar(){ $this->__construct(); }	
+		function admin_bar(){ $this->__construct(); }	
 		
 		function __construct(){
 			// translating strings
