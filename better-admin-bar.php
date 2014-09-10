@@ -8,13 +8,13 @@
 	Author URI: http://kubiq.sk
 */
 
-if (!class_exists('admin_bar')) {
-	class admin_bar {
-		var $domain = 'admin_bar';
+if (!class_exists('better_admin_bar')) {
+	class better_admin_bar {
+		var $domain = 'better_admin_bar';
 		var $plugin_admin_page;
 		var $settings;
 		
-		function admin_bar(){ $this->__construct(); }	
+		function better_admin_bar(){ $this->__construct(); }	
 		
 		function __construct(){
 			// translating strings
@@ -171,6 +171,6 @@ if (!class_exists('admin_bar')) {
 	}
 }
 
-if (class_exists('admin_bar')) { 
-	$admin_bar_var = new admin_bar();
+if (class_exists('better_admin_bar')) { 
+	$better_admin_bar_var = new better_admin_bar();
 } ?>
