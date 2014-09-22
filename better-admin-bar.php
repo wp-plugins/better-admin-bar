@@ -3,7 +3,7 @@
 	Plugin Name: Better Admin Bar
 	Plugin URI: http://kubiq.sk
 	Description: Better Admin Bar
-	Version: 1.2
+	Version: 1.4
 	Author: Jakub Novák
 	Author URI: http://kubiq.sk
 */
@@ -120,7 +120,7 @@ if (!class_exists('better_admin_bar')) {
 								<label for="hide_admin_bar"><?php _e('Hide admin bar for all users', $this->domain) ?></label> 
 							</th>
 							<td>
-								<input type="checkbox" name="hide_admin_bar" value="checked" id="hide_admin_bar" <?php echo $this->settings["hide_admin_bar"] ?>>
+								<input type="checkbox" name="hide_admin_bar" value="checked" id="hide_admin_bar" <?php echo isset($this->settings["hide_admin_bar"]) ? $this->settings["hide_admin_bar"] : "" ?>>
 							</td>
 						</tr>
 						<tr>
@@ -128,7 +128,7 @@ if (!class_exists('better_admin_bar')) {
 								<label for="show_admin"><?php _e('Hide admin bar for all users except admin', $this->domain) ?></label> 
 							</th>
 							<td>
-								<input type="checkbox" name="show_admin" value="checked" id="show_admin" <?php echo $this->settings["show_admin"] ?>>
+								<input type="checkbox" name="show_admin" value="checked" id="show_admin" <?php echo isset($this->settings["show_admin"]) ? $this->settings["show_admin"] : "" ?>>
 							</td>
 						</tr>
 						<tr>
@@ -152,7 +152,7 @@ if (!class_exists('better_admin_bar')) {
 								<label for="autohide"><?php _e('Auto-hide admin bar (show on hover)', $this->domain) ?></label> 
 							</th>
 							<td>
-								<input type="checkbox" name="autohide" value="checked" id="autohide" <?php echo $this->settings["autohide"] ?>>
+								<input type="checkbox" name="autohide" value="checked" id="autohide" <?php echo isset($this->settings["autohide"]) ? $this->settings["autohide"] : "" ?>>
 							</td>
 						</tr>
 						<tr>
