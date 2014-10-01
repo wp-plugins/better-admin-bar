@@ -1,10 +1,10 @@
 === Plugin Name ===
 Contributors: kubiq
-Donate link: http://example.com/
+Donate link: http://kubiq.sk
 Tags: admin bar, adminbar, margin
 Requires at least: 3.0.1
-Tested up to: 3.9.1
-Stable tag: 1.1
+Tested up to: 4.0
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,18 @@ Admin bar moves your website 32px down by default, but now it doesn't. This plug
 4. Plugin settings
 
 == Changelog ==
+
+= 1.4 =
+* Small fixes
+
+= 1.3 =
+* Small fixes
+
+= 1.2 =
+* Tested in WP 4.0
+
+= 1.1 =
+* Small fixes
 
 = 1.0 =
 * First version
