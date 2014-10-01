@@ -37,8 +37,17 @@ Admin bar moves your website 32px down by default, but now it doesn't. This plug
 
 == Changelog ==
 
+= 1.4 =
+* Small fixes
+
+= 1.3 =
+* Small fixes
+
 = 1.2 =
 * Tested in WP 4.0
+
+= 1.1 =
+* Small fixes
 
 = 1.0 =
 * First version
