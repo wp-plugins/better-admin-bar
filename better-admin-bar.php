@@ -3,7 +3,7 @@
 	Plugin Name: Better Admin Bar
 	Plugin URI: http://kubiq.sk
 	Description: Better Admin Bar
-	Version: 1.4
+	Version: 1.5
 	Author: Jakub Novák
 	Author URI: http://kubiq.sk
 */
